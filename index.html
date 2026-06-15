@@ -40,8 +40,10 @@
         .product-card img {
             width: 100%;
             height: 200px;
+            object-fit: cover;
             background-color: #e0e0e0;
             margin-bottom: 10px;
+            border-radius: 5px;
         }
 
         .price {
@@ -58,41 +60,12 @@
             margin-top: 10px;
             cursor: pointer;
             font-size: 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
         }
 
-
-        .product-card {
-            background-color: white;
-            border: 2px solid #87CEEB;
-            border-radius: 10px;
-            width: 250px;
-            margin: 10px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .product-card img {
-            width: 100%;
-            height: 200px;
-            background-color: #e0e0e0;
-            margin-bottom: 10px;
-        }
-
-        .price {
-            color: #0077be;
-            font-weight: bold;
-            font-size: 1.2em;
-        }
-
-        button {
-            background-color: #87CEEB;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            margin-top: 10px;
-            cursor: pointer;
-            font-size: 1em;
+        button:hover {
+            background-color: #5ba3d0;
         }
     </style>
 </head>
@@ -100,19 +73,19 @@
 <body>
     <header>
         <h1>WELCOME TO ZYAAN - BEAUTY STORE</h1>
-        <H3> WE PROVIDE THE BEST BEAUTY PRODUCTS WITH AUTHENTICITY</H3>
+        <h3>WE PROVIDE THE BEST BEAUTY PRODUCTS WITH AUTHENTICITY</h3>
     </header>
     <div class="container">
-        <div class="product-card">
-            <img src="zyaanlipstick.png" alt="ZYAAN NUDE LIPSTICK" width="200" height="200">
-            <h2>ZYAAN LIPSTICK</h2>
-            <p class="price">799</p>
-            <button>BUY NOW</button>
-        </div>
         <div class="product-card">
             <img src="zyaanfoundation.png" alt="ZYAAN FOUNDATION" width="200" height="200">
             <h2>ZYAAN FOUNDATION</h2>
             <p class="price">৳ 1499</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="product-card">
+            <img src="zyaanlipstick.png" alt="ZYAAN LIPSTICK" width="200" height="200">
+            <h2>ZYAAN LIPSTICK</h2>
+            <p class="price">৳ 799</p>
             <button>BUY NOW</button>
         </div>
         <div class="product-card">
